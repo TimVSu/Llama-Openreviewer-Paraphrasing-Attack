@@ -25,7 +25,7 @@ WORD_THRESHOLD = int(os.environ.get("WORD_THRESHOLD"))
 
 PARAPHRASES_PATH = os.path.join(
     os.environ.get("PARAPHRASES_DIR"),
-    f"{os.path.basename(PAPER_PATH)}_paraphrases_{SEMANTIC_THRESHOLD}_{WORD_THRESHOLD}.tsv",
+    f"{os.path.splitext(os.path.basename(PAPER_PATH))[0]}_paraphrases_{int(SEMANTIC_THRESHOLD * 100)}_{WORD_THRESHOLD}.tsv",
 )
 INFERENCE_HEADERS = {
     "Authorization": f"Bearer {os.environ.get('HF_TOKEN')}",
@@ -37,7 +37,8 @@ SCORES_PATH = os.environ.get("SCORES_PATH")
 REVIEW_PROMPT_PATH = os.environ.get("REVIEW_PROMPT_PATH")
 RATING_PROMPT_PATH = os.environ.get("RATING_PROMPT_PATH")
 CHECKPOINT_PATH = os.path.join(
-    os.environ.get("CHECKPOINT_DIR"), f"{os.path.basename(PAPER_PATH)}.json"
+    os.environ.get("CHECKPOINT_DIR"),
+    f"{os.path.splitext(os.path.basename(PAPER_PATH))[0]}.json",
 )
 sentence_transformer = SentenceTransformer("all-MiniLM-L6-v2")
 

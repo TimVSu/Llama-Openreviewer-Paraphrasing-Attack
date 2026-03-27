@@ -483,3 +483,337 @@ Function 'evaluate_paper' took 74.2352 seconds
 Function 'evaluate_paper' took 75.3061 seconds
 Function 'evaluate_paper' took 76.2466 seconds
 Optimizing sentence #126
+/home/tim/Documents/Uni/linguistics/openReviewerAttack/data/paraphrases/435_paper_paraphrases_80_3.tsv
+Resuming from index 126. Original score was: 2.0083150271036962
+Optimizing sentence #126
+Function 'evaluate_paper' took 132.0293 seconds
+Function 'evaluate_paper' took 132.8476 seconds
+Function 'evaluate_paper' took 133.8735 seconds
+Function 'evaluate_paper' took 134.5971 seconds
+Optimizing sentence #127
+Optimizing sentence #128
+Function 'evaluate_paper' took 40.9508 seconds
+Function 'evaluate_paper' took 41.5804 seconds
+Function 'evaluate_paper' took 42.4829 seconds
+Function 'evaluate_paper' took 43.4702 seconds
+Optimizing sentence #129
+Function 'evaluate_paper' took 56.6592 seconds
+Function 'evaluate_paper' took 57.5827 seconds
+Function 'evaluate_paper' took 58.8106 seconds
+Function 'evaluate_paper' took 59.8397 seconds
+Optimizing sentence #130
+Function 'evaluate_paper' took 53.8632 seconds
+Function 'evaluate_paper' took 54.5726 seconds
+Function 'evaluate_paper' took 55.6003 seconds
+Function 'evaluate_paper' took 56.5526 seconds
+Optimizing sentence #131
+Function 'evaluate_paper' took 51.6772 seconds
+Function 'evaluate_paper' took 52.4984 seconds
+Function 'evaluate_paper' took 53.3165 seconds
+Function 'evaluate_paper' took 54.2363 seconds
+Optimizing sentence #132
+Optimizing sentence #133
+Function 'evaluate_paper' took 64.8095 seconds
+Function 'evaluate_paper' took 64.8118 seconds
+Function 'evaluate_paper' took 65.7470 seconds
+Function 'evaluate_paper' took 66.8347 seconds
+Optimizing sentence #134
+Optimizing sentence #135
+Function 'evaluate_paper' took 57.6317 seconds
+Function 'evaluate_paper' took 58.6550 seconds
+Function 'evaluate_paper' took 59.3333 seconds
+Function 'evaluate_paper' took 60.2954 seconds
+Optimizing sentence #136
+Function 'evaluate_paper' took 41.3691 seconds
+Function 'evaluate_paper' took 42.3945 seconds
+Function 'evaluate_paper' took 43.1080 seconds
+Function 'evaluate_paper' took 44.0363 seconds
+Optimizing sentence #137
+Optimizing sentence #138
+Function 'evaluate_paper' took 28.4520 seconds
+Function 'evaluate_paper' took 29.4713 seconds
+Function 'evaluate_paper' took 30.0862 seconds
+Function 'evaluate_paper' took 30.9080 seconds
+Optimizing sentence #139
+Optimizing sentence #140
+Optimizing sentence #141
+Function 'evaluate_paper' took 56.2058 seconds
+Function 'evaluate_paper' took 57.2281 seconds
+Function 'evaluate_paper' took 57.9426 seconds
+Function 'evaluate_paper' took 58.7633 seconds
+Optimizing sentence #142
+Function 'evaluate_paper' took 52.0303 seconds
+Function 'evaluate_paper' took 52.9408 seconds
+Function 'evaluate_paper' took 53.8611 seconds
+Function 'evaluate_paper' took 54.8192 seconds
+Optimizing sentence #143
+Function 'evaluate_paper' took 38.3625 seconds
+Function 'evaluate_paper' took 39.1887 seconds
+Function 'evaluate_paper' took 40.1023 seconds
+Function 'evaluate_paper' took 41.1278 seconds
+Optimizing sentence #144
+Optimizing sentence #145
+Function 'evaluate_paper' took 38.4892 seconds
+Function 'evaluate_paper' took 39.3105 seconds
+Function 'evaluate_paper' took 39.9368 seconds
+Function 'evaluate_paper' took 40.9310 seconds
+Optimizing sentence #146
+Function 'evaluate_paper' took 55.1072 seconds
+Function 'evaluate_paper' took 55.9685 seconds
+Function 'evaluate_paper' took 57.0550 seconds
+Function 'evaluate_paper' took 57.7711 seconds
+Optimizing sentence #147
+Function 'evaluate_paper' took 45.5797 seconds
+Function 'evaluate_paper' took 46.5847 seconds
+Function 'evaluate_paper' took 47.3063 seconds
+Function 'evaluate_paper' took 48.3265 seconds
+Optimizing sentence #148
+Function 'evaluate_paper' took 57.6073 seconds
+Function 'evaluate_paper' took 58.6813 seconds
+Function 'evaluate_paper' took 59.3677 seconds
+Function 'evaluate_paper' took 60.3118 seconds
+Optimizing sentence #149
+Optimizing sentence #150
+Optimizing sentence #151
+Function 'evaluate_paper' took 49.8569 seconds
+Function 'evaluate_paper' took 50.9891 seconds
+Function 'evaluate_paper' took 51.5992 seconds
+Function 'evaluate_paper' took 52.4182 seconds
+Optimizing sentence #152
+Function 'evaluate_paper' took 44.8877 seconds
+Function 'evaluate_paper' took 45.8140 seconds
+Function 'evaluate_paper' took 46.7462 seconds
+Function 'evaluate_paper' took 47.6751 seconds
+Optimizing sentence #153
+Function 'evaluate_paper' took 61.0023 seconds
+Function 'evaluate_paper' took 61.8782 seconds
+Function 'evaluate_paper' took 62.7465 seconds
+Function 'evaluate_paper' took 63.6651 seconds
+Optimizing sentence #154
+Function 'evaluate_paper' took 46.1856 seconds
+Function 'evaluate_paper' took 46.8991 seconds
+Function 'evaluate_paper' took 47.8231 seconds
+Function 'evaluate_paper' took 48.6407 seconds
+Optimizing sentence #155
+Function 'evaluate_paper' took 44.7519 seconds
+Function 'evaluate_paper' took 45.3651 seconds
+Function 'evaluate_paper' took 46.4915 seconds
+Function 'evaluate_paper' took 47.1089 seconds
+Optimizing sentence #156
+Function 'evaluate_paper' took 61.9634 seconds
+Function 'evaluate_paper' took 63.1895 seconds
+Function 'evaluate_paper' took 63.9097 seconds
+Function 'evaluate_paper' took 64.8246 seconds
+Optimizing sentence #157
+Function 'evaluate_paper' took 39.8232 seconds
+Function 'evaluate_paper' took 41.7676 seconds
+Function 'evaluate_paper' took 42.5891 seconds
+Function 'evaluate_paper' took 49.4467 seconds
+Optimizing sentence #158
+Function 'evaluate_paper' took 43.1469 seconds
+Function 'evaluate_paper' took 44.1334 seconds
+Function 'evaluate_paper' took 45.0535 seconds
+Function 'evaluate_paper' took 45.8736 seconds
+Optimizing sentence #159
+Function 'evaluate_paper' took 38.6062 seconds
+Function 'evaluate_paper' took 39.4279 seconds
+Function 'evaluate_paper' took 40.3466 seconds
+Function 'evaluate_paper' took 41.2705 seconds
+Optimizing sentence #160
+Function 'evaluate_paper' took 15.2582 seconds
+Optimizing sentence #161
+Function 'evaluate_paper' took 57.1545 seconds
+Function 'evaluate_paper' took 57.7195 seconds
+Function 'evaluate_paper' took 58.7865 seconds
+Function 'evaluate_paper' took 65.6474 seconds
+Optimizing sentence #162
+Function 'evaluate_paper' took 65.0113 seconds
+Function 'evaluate_paper' took 65.9268 seconds
+Function 'evaluate_paper' took 66.7530 seconds
+Function 'evaluate_paper' took 67.6679 seconds
+Optimizing sentence #163
+Optimizing sentence #164
+Optimizing sentence #165
+Optimizing sentence #166
+Optimizing sentence #167
+Function 'evaluate_paper' took 47.5873 seconds
+Function 'evaluate_paper' took 48.4042 seconds
+Function 'evaluate_paper' took 49.4264 seconds
+Function 'evaluate_paper' took 50.1438 seconds
+Optimizing sentence #168
+Function 'evaluate_paper' took 45.5648 seconds
+Function 'evaluate_paper' took 46.1767 seconds
+Function 'evaluate_paper' took 47.1001 seconds
+Function 'evaluate_paper' took 47.9164 seconds
+Optimizing sentence #169
+Function 'evaluate_paper' took 41.4701 seconds
+Function 'evaluate_paper' took 42.0851 seconds
+Function 'evaluate_paper' took 43.1077 seconds
+Function 'evaluate_paper' took 43.8680 seconds
+Optimizing sentence #170
+Optimizing sentence #171
+Function 'evaluate_paper' took 17.7609 seconds
+Optimizing sentence #172
+Function 'evaluate_paper' took 63.9018 seconds
+Function 'evaluate_paper' took 64.8199 seconds
+Function 'evaluate_paper' took 65.7426 seconds
+Function 'evaluate_paper' took 66.7731 seconds
+Optimizing sentence #173
+Function 'evaluate_paper' took 27.5355 seconds
+Function 'evaluate_paper' took 28.5641 seconds
+Function 'evaluate_paper' took 29.3808 seconds
+Function 'evaluate_paper' took 30.1945 seconds
+Optimizing sentence #174
+Optimizing sentence #175
+Optimizing sentence #176
+Function 'evaluate_paper' took 57.0205 seconds
+Function 'evaluate_paper' took 57.9409 seconds
+Function 'evaluate_paper' took 58.7640 seconds
+Function 'evaluate_paper' took 59.6807 seconds
+Optimizing sentence #177
+Function 'evaluate_paper' took 60.6891 seconds
+Function 'evaluate_paper' took 61.6433 seconds
+Function 'evaluate_paper' took 62.5637 seconds
+Function 'evaluate_paper' took 63.5693 seconds
+Optimizing sentence #178
+Function 'evaluate_paper' took 52.1372 seconds
+Function 'evaluate_paper' took 53.0603 seconds
+Function 'evaluate_paper' took 53.9800 seconds
+Function 'evaluate_paper' took 54.7998 seconds
+Optimizing sentence #179
+Function 'evaluate_paper' took 53.4690 seconds
+Function 'evaluate_paper' took 54.3749 seconds
+Function 'evaluate_paper' took 55.2979 seconds
+Function 'evaluate_paper' took 56.3187 seconds
+Optimizing sentence #180
+Function 'evaluate_paper' took 56.0140 seconds
+Function 'evaluate_paper' took 56.8339 seconds
+Function 'evaluate_paper' took 57.6514 seconds
+Function 'evaluate_paper' took 58.5725 seconds
+Optimizing sentence #181
+Function 'evaluate_paper' took 35.0236 seconds
+Function 'evaluate_paper' took 35.8447 seconds
+Function 'evaluate_paper' took 36.6661 seconds
+Function 'evaluate_paper' took 37.5813 seconds
+Optimizing sentence #182
+Function 'evaluate_paper' took 37.5763 seconds
+Function 'evaluate_paper' took 38.2941 seconds
+Function 'evaluate_paper' took 39.1186 seconds
+Function 'evaluate_paper' took 39.9328 seconds
+Optimizing sentence #183
+Function 'evaluate_paper' took 56.7323 seconds
+Function 'evaluate_paper' took 57.8596 seconds
+Function 'evaluate_paper' took 58.6832 seconds
+Function 'evaluate_paper' took 59.4981 seconds
+Optimizing sentence #184
+Function 'evaluate_paper' took 56.6248 seconds
+Function 'evaluate_paper' took 57.4483 seconds
+Function 'evaluate_paper' took 58.2614 seconds
+Function 'evaluate_paper' took 59.2860 seconds
+Optimizing sentence #185
+Function 'evaluate_paper' took 57.9548 seconds
+Function 'evaluate_paper' took 58.7685 seconds
+Function 'evaluate_paper' took 59.6908 seconds
+Function 'evaluate_paper' took 60.5108 seconds
+Optimizing sentence #186
+Optimizing sentence #187
+Optimizing sentence #188
+Optimizing sentence #189
+Function 'evaluate_paper' took 55.5579 seconds
+Function 'evaluate_paper' took 56.3763 seconds
+Function 'evaluate_paper' took 57.3993 seconds
+Function 'evaluate_paper' took 58.3238 seconds
+Optimizing sentence #190
+Optimizing sentence #191
+Function 'evaluate_paper' took 46.7397 seconds
+Function 'evaluate_paper' took 47.7027 seconds
+Function 'evaluate_paper' took 48.6226 seconds
+Function 'evaluate_paper' took 49.3401 seconds
+Optimizing sentence #192
+Function 'evaluate_paper' took 57.2377 seconds
+Function 'evaluate_paper' took 61.8452 seconds
+Function 'evaluate_paper' took 62.7741 seconds
+Function 'evaluate_paper' took 63.5882 seconds
+Optimizing sentence #193
+Function 'evaluate_paper' took 55.1927 seconds
+Function 'evaluate_paper' took 56.1126 seconds
+Function 'evaluate_paper' took 56.9326 seconds
+Function 'evaluate_paper' took 57.7503 seconds
+Optimizing sentence #194
+Function 'evaluate_paper' took 58.2451 seconds
+Function 'evaluate_paper' took 59.1829 seconds
+Function 'evaluate_paper' took 59.9916 seconds
+Function 'evaluate_paper' took 60.8846 seconds
+New score is: 4.153035613386082
+original sentence is: We present some correctly classified examples by our best configuration and misclassified by B2 in Table 8.
+sentece was replaced by: Examples that our top-performing configuration got right but B2 got wrong are provided in Table 8.
+Optimizing sentence #195
+Function 'evaluate_paper' took 40.5889 seconds
+Function 'evaluate_paper' took 41.3129 seconds
+Function 'evaluate_paper' took 42.2286 seconds
+Function 'evaluate_paper' took 43.1513 seconds
+Optimizing sentence #196
+Function 'evaluate_paper' took 38.6207 seconds
+Function 'evaluate_paper' took 39.7291 seconds
+Function 'evaluate_paper' took 40.4041 seconds
+Function 'evaluate_paper' took 41.3687 seconds
+Optimizing sentence #197
+Optimizing sentence #198
+Function 'evaluate_paper' took 56.9454 seconds
+Function 'evaluate_paper' took 57.8441 seconds
+Function 'evaluate_paper' took 58.8734 seconds
+Function 'evaluate_paper' took 59.5858 seconds
+Optimizing sentence #199
+Function 'evaluate_paper' took 57.5494 seconds
+Function 'evaluate_paper' took 58.5742 seconds
+Function 'evaluate_paper' took 59.3425 seconds
+Function 'evaluate_paper' took 60.4184 seconds
+Optimizing sentence #200
+Function 'evaluate_paper' took 48.2390 seconds
+Function 'evaluate_paper' took 49.2524 seconds
+Function 'evaluate_paper' took 50.1786 seconds
+Function 'evaluate_paper' took 51.1972 seconds
+Optimizing sentence #201
+Function 'evaluate_paper' took 38.9125 seconds
+Function 'evaluate_paper' took 39.9348 seconds
+Function 'evaluate_paper' took 40.9596 seconds
+Optimizing sentence #202
+Function 'evaluate_paper' took 59.1621 seconds
+Function 'evaluate_paper' took 60.1873 seconds
+Function 'evaluate_paper' took 61.0062 seconds
+Function 'evaluate_paper' took 61.9360 seconds
+Optimizing sentence #203
+Function 'evaluate_paper' took 46.4803 seconds
+Function 'evaluate_paper' took 47.3030 seconds
+Function 'evaluate_paper' took 48.2218 seconds
+Function 'evaluate_paper' took 49.1444 seconds
+Optimizing sentence #204
+Function 'evaluate_paper' took 45.5681 seconds
+Function 'evaluate_paper' took 46.3868 seconds
+Function 'evaluate_paper' took 47.3071 seconds
+Function 'evaluate_paper' took 48.1596 seconds
+Optimizing sentence #205
+Function 'evaluate_paper' took 43.1814 seconds
+Function 'evaluate_paper' took 44.0025 seconds
+Function 'evaluate_paper' took 44.9972 seconds
+Function 'evaluate_paper' took 45.8448 seconds
+Optimizing sentence #206
+Function 'evaluate_paper' took 39.3214 seconds
+Function 'evaluate_paper' took 40.2423 seconds
+Function 'evaluate_paper' took 41.0611 seconds
+Function 'evaluate_paper' took 41.9848 seconds
+Optimizing sentence #207
+Optimizing sentence #208
+Function 'evaluate_paper' took 51.8797 seconds
+Function 'evaluate_paper' took 52.8044 seconds
+Function 'evaluate_paper' took 53.7219 seconds
+Function 'evaluate_paper' took 54.6439 seconds
+Optimizing sentence #209
+Function 'evaluate_paper' took 53.0155 seconds
+Function 'evaluate_paper' took 53.8625 seconds
+Function 'evaluate_paper' took 54.8878 seconds
+Function 'evaluate_paper' took 55.7065 seconds
+Optimizing sentence #210
+Optimization complete.
+Original: 2.0083150271036962
+Final: 4.153035613386082
