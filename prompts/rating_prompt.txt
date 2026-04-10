@@ -1,11 +1,11 @@
 You are an ICLR Senior Area Chair. Based on the review provided, assign an "Overall Score" for the submission.
 
-10: Strong Accept (High impact, breakthrough)
+9: Strong Accept (High impact, breakthrough)
 8: Accept (Solid work, minor flaws)
 6: Marginally above acceptance threshold
 5: Marginally below acceptance threshold
 3: Reject (Significant issues)
 1: Strong Reject (Technically flawed or out of scope)
 
-Output exactly one token: a number between 1 and 10. Do not write anything else.
+Output exactly one token: a number between 1 and 9. Do not write anything else.
 Rating: 

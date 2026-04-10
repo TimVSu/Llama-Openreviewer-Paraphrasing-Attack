@@ -274,6 +274,7 @@ async def call_endpoint(
     headers,
     max_tokens,
     client,
+    model="/data/Llama-OpenReviewer-8B",
     temperature=0.0,
     top_logprobs=None,
     guided_options=None,
@@ -281,7 +282,7 @@ async def call_endpoint(
     target_url = f"{endpoint_url.rstrip('/')}/v1/chat/completions"
 
     payload = {
-        "model": "/data/Llama-OpenReviewer-8B",
+        "model": model,
         "messages": messages,
         "max_tokens": max_tokens,
         "temperature": temperature,
@@ -309,7 +310,9 @@ async def evaluate_paper(
     load_file_as_string,
     review_prompt_path,
     rating_prompt_path,
+    timeout=300.0,
     client=None,
+    model="/data/Llama-OpenReviewer-8B",
 ):
     if client is not None:
         return await _evaluate(
@@ -320,10 +323,11 @@ async def evaluate_paper(
             review_prompt_path,
             rating_prompt_path,
             client,
+            model,
         )
     else:
         async with httpx.AsyncClient(
-            timeout=400.0, follow_redirects=True
+            timeout=timeout, follow_redirects=True
         ) as new_client:
             return await _evaluate(
                 paper_text,
@@ -333,6 +337,7 @@ async def evaluate_paper(
                 review_prompt_path,
                 rating_prompt_path,
                 new_client,
+                model,
             )
 
 
@@ -344,6 +349,7 @@ async def _evaluate(
     review_prompt_path,
     rating_prompt_path,
     client,
+    model,
 ):
     r_output = await call_endpoint(
         [
@@ -352,10 +358,15 @@ async def _evaluate(
         ],
         endpoint_url,
         headers,
-        1000,
+        2000,
         client,
+        model,
     )
-    reasoning = r_output["choices"][0]["message"]["content"]
+    reasoning = re.sub(
+        r"-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?",
+        "[NUM]",
+        r_output["choices"][0]["message"]["content"],
+    )
 
     return await call_endpoint(
         [
@@ -369,7 +380,8 @@ async def _evaluate(
         headers,
         1,
         client,
+        model,
         0.0,
         20,
-        ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
     )

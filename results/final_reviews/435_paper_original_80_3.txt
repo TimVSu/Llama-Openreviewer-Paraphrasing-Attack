@@ -1,0 +1,30 @@
+### Recommendation
+2
+
+### Confidence
+4
+
+### Summary
+The paper addresses the problem of classifying whether a given sentence encodes a causal relation. The authors propose a neural network architecture for this task and evaluate it on the corpus of Hidey and McKeown (2016).
+
+## Strengths
+The paper addresses an interesting problem of classifying whether a given sentence encodes a causal relation. The authors propose a neural network architecture for this task and evaluate it on the corpus of Hidey and McKeown (2016).
+
+## Weaknesses
+The paper is not clearly written and is difficult to follow. The authors should revise the paper and provide more details on the proposed method.
+
+## Questions to Authors
+1. The paper is not clearly written and is difficult to follow. The authors should revise the paper and provide more details on the proposed method.
+
+2. The authors should provide a more detailed analysis of the results, including a discussion of the errors made by the proposed method.
+
+3. The authors should provide a more detailed analysis of the performance of the proposed method on different types of sentences, including sentences with different causal markers.
+
+## Ethics and Limitations
+The authors should discuss the ethical implications of their work and the potential limitations of the proposed method.
+
+## Additional Feedback
+The paper is not clearly written and is difficult to follow. The authors should revise the paper and provide more details on the proposed method.
+
+## Confidence
+4

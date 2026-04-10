@@ -1,0 +1,35 @@
+### Recommendation
+3 Borderline
+
+### Confidence
+4 High
+
+### Summary
+This paper proposes a method for detecting lexical entailment in context. The method is simple: it computes various similarity measures between different representations of the words and the contexts. The representations of the words and the contexts are obtained by applying filters to word type representations. The paper evaluates the method on three datasets: Context-PPDB, Context-WN, and a cross-lingual dataset. The results show that the method outperforms context-agnostic baselines and achieves state-of-the-art performance on the first two datasets.
+
+## Strengths
+- The paper is well-written and easy to follow.
+- The method is simple and effective.
+- The paper introduces a new cross-lingual dataset for lexical entailment in context.
+
+## Weaknesses
+- The novelty of the paper is limited. The method is a straightforward extension of the method proposed by Shwartz and Dagan (2015). The main difference is that the paper computes the similarity measures on different representations of the words and the contexts.
+- The paper does not compare the method with the method proposed by Shwartz and Dagan (2015). It would be interesting to see how the proposed method compares with the method proposed by Shwartz and Dagan (2015).
+- The paper does not provide any qualitative analysis of the results. It would be interesting to see some examples of how the proposed method performs on different types of sentences.
+
+## Questions to Authors
+- How does the proposed method compare with the method proposed by Shwartz and Dagan (2015)?
+- Can you provide some examples of how the proposed method performs on different types of sentences?
+
+## Ethics and Limitations
+The paper does not discuss the ethical considerations and limitations of the proposed method.
+
+## Additional Feedback
+- It would be interesting to see how the proposed method performs on different types of sentences. For example, how does the method perform on short sentences vs. long sentences? How does the method perform on sentences with more than two clauses?
+- It would be interesting to see how the proposed method compares with the method proposed by Shwartz and Dagan (2015) on the cross-lingual dataset.
+
+## Recommendation
+3 Borderline
+
+## Confidence
+4 High

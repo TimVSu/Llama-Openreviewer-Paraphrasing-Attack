@@ -36,7 +36,7 @@ def fix_tokenizer_config():
             config["tokenizer_class"] = "PreTrainedTokenizerFast"
             with open(config_path, "w") as f:
                 json.dump(config, f, indent=2)
-            volume.commit()  # CRITICAL: Saves changes to the cloud volume
+            volume.commit()
             print("Fix applied and committed.")
         else:
             print(f"No fix needed. Current class: {config.get('tokenizer_class')}")
@@ -80,7 +80,7 @@ class VLLMServer:
             "--dtype",
             "bfloat16",
             "--max-model-len",
-            "12288",
+            "16384",
             "--trust-remote-code",
             "--host",
             "0.0.0.0",

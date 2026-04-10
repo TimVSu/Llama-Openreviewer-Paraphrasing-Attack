@@ -1,0 +1,34 @@
+### Recommendation
+3 Borderline
+
+### Confidence
+4 High
+
+### Summary
+This paper proposes a method for detecting lexical entailment in context. The method consists of a few different components: (1) contextualized word representations, (2) context representations, and (3) similarity features. The authors evaluate their method on three datasets: Context-PPDB, Context-WN, and a cross-lingual dataset. The results show that the proposed method outperforms context-agnostic baselines and establishes a new state-of-the-art on an existing dataset.
+
+## Strengths
+- The paper is well-written and easy to follow.
+- The proposed method is simple and effective, and the authors provide a clear explanation of each component.
+- The evaluation is thorough, with experiments on three datasets and comparisons to multiple baselines.
+
+## Weaknesses
+- The paper could benefit from more ablation studies to analyze the contribution of each component.
+- The paper does not provide a detailed analysis of the cross-lingual dataset, which could be interesting given the cross-lingual setting.
+
+## Supporting Arguments
+- The paper presents a simple and effective method for detecting lexical entailment in context. The proposed method outperforms context-agnostic baselines and establishes a new state-of-the-art on an existing dataset. The paper is well-written and easy to follow, and the authors provide a clear explanation of each component of the method. The evaluation is thorough, with experiments on three datasets and comparisons to multiple baselines. However, the paper could benefit from more ablation studies to analyze the contribution of each component, and the paper does not provide a detailed analysis of the cross-lingual dataset. Overall, the paper makes a solid contribution to the field of natural language processing.
+
+## Questions to Authors
+- Could you provide more ablation studies to analyze the contribution of each component of the proposed method?
+- Could you provide a more detailed analysis of the cross-lingual dataset, including some examples and error analysis?
+
+## Ethics and Limitations
+The authors have addressed the limitations of their work in the paper.
+
+## Additional Feedback
+- It would be great to have more ablation studies to analyze the contribution of each component.
+- It would be great to have a more detailed analysis of the cross-lingual dataset.
+
+## Confidence
+4 High

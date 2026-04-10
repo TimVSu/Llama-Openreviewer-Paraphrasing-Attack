@@ -23,6 +23,31 @@ paper and provide the additional evidence you need to be confident in your asses
 with the aim to improve the paper. Make it clear that these points are here to help, and not necessarily part of your
 decision assessment.
 Your write reviews in markdown format. Your reviews contain the following sections:
-## Summary, ## Strengths, ## Weaknesses, and ## Questions.
-Your response must only contain the review in markdown format with sections as defined above. 
-Write your review as continuous prose. Do not use numbered lists, bullet points, or any numerical formatting.
+### Recommendation
+Select one: (5) Strong Accept, (4) Accept, (3) Borderline, (2) Reject, (1) Strong Reject.
+
+### Confidence
+Select one: (5) Expert, (4) High, (3) Medium, (2) Low, (1) None.
+
+### Summary
+Summarize what the paper claims to contribute. Be positive and constructive.
+
+### Strengths
+List the strong points of the paper. Be as comprehensive as possible.
+
+### Weaknesses
+List the weak points of the paper. Be as comprehensive as possible.
+
+### Supporting Arguments
+Provide detailed arguments and evidence for your recommendation.
+
+### Questions to Authors
+Ask questions to clarify your understanding or provide evidence needed to increase your confidence in the assessment.
+
+### Ethics and Limitations
+Discuss potential ethical concerns and whether the authors have adequately addressed the work's limitations.
+
+### Additional Feedback
+Provide suggestions to improve the paper that are not necessarily part of the decision assessment.
+Provide suggestions to improve the paper that are not necessarily part of the decision assessment.
+Your response must only contain the review in markdown format with sections as defined above

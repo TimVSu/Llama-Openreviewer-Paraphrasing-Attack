@@ -1,0 +1,119 @@
+# Paraphrasing Attack on Llama-OpenReviewer-8B
+
+A black-box adversarial attack that tests the Llama-OpenReviewer-8B's Robustness to sentence pertubations.
+
+---
+
+## How It Works
+
+1. **Extract sentences** — Natural prose sentences are extracted from the paper using heuristics and regex to filter out LaTeX, headings, and non-prose content.
+2. **Generate paraphrases** — Each sentence is paraphrased using Claude via the Anthropic API. Candidates are filtered by semantic similarity (sentence transformers) and lexical distance to ensure they are meaningfully different but semantically equivalent.
+3. **Score the paper** — A two-pass scoring pipeline evaluates the paper:
+   - **Pass 1 (Review):** The model generates a natural language review of the paper.
+   - **Pass 2 (Rating):** Numbers are masked in the review (`[NUM]`) to prevent anchoring bias, then the model assigns a score from 1–9. A logprobs-weighted sum over the score token distribution is used as the final score.
+4. **Greedy optimization** — Sentences are iterated in their original order. For each sentence, all valid paraphrases are evaluated in parallel. If a paraphrase yields a higher score than the current best, it replaces the original. Progress is checkpointed after each sentence.
+
+---
+
+## Setup
+
+### Prerequisites
+
+- Python 3.10+
+- Access to a [vLLM](https://github.com/vllm-project/vllm) inference endpoint serving `Llama-OpenReviewer-8B`
+- An Anthropic API key
+
+### Installation
+
+```bash
+git clone https://github.com/TimVSu/Llama-Openreviewer-Paraphrasing-Attack
+cd TimVSu/Llama-Openreviewer-Paraphrasing-Attack
+pip install -r requirements.txt
+```
+
+### Configuration
+
+Copy `.env.example` to `.env.local` and fill in the values:
+
+```env
+ANTHROPIC_API_KEY=           # Anthropic API key for paraphrase generation
+TIMEOUT=300.0                # HTTP timeout in seconds
+SEMANTIC_THRESHOLD=0.8       # Minimum cosine similarity for a valid paraphrase (0–1)
+WORD_THRESHOLD=3             # Minimum word-level edit distance for a valid paraphrase
+
+PAPER_PATH=                  # Path to the input paper in Markdown format
+PARAPHRASING_PROMPT_PATH=    # Path to the system prompt used for paraphrase generation
+REVIEW_PROMPT_PATH=          # Path to the system prompt for the review pass
+RATING_PROMPT_PATH=          # Path to the system prompt for the rating pass
+
+INFERENCE_ENDPOINT_URL=      # Base URL of the vLLM endpoint
+INFERENCE_TOKEN=             # Bearer token for the vLLM endpoint if necessary
+INFERENCE_ENDPOINT_MODEL=    # Model path for the vLLM endpoint e.g. /repository on Huggingface endpoints
+
+PARAPHRASES_DIR=             # Directory to cache generated paraphrases (.tsv)
+RESULTS_PATH=                # Output path for the optimized paper (.md)
+SCORES_PATH=                 # Path to the scores log (.csv)
+CHECKPOINT_DIR=              # Directory for optimization checkpoints
+```
+
+---
+
+## Usage
+
+```bash
+python3 root.py
+```
+
+Or to keep the logs
+
+```bash
+python -u root.py >> ../logs/<logs_file>
+```
+
+On first run, paraphrases are generated and saved to `PARAPHRASES_DIR`. You will be prompted before the optimization begins, allowing you to inspect the paraphrases first. Subsequent runs with the same paper and settings will load cached paraphrases automatically.
+
+If a run is interrupted, it will resume from the last checkpoint automatically.
+
+---
+
+## Project Structure
+
+```
+.
+├── root.py                  # Entry point and optimization loop
+├── utils.py                 # Sentence extraction, paraphrasing, scoring, I/O utilities
+├── prompts/
+│   ├── paraphrasing.md      # System prompt for paraphrase generation
+│   ├── review.md            # System prompt for the review pass
+│   └── rating.md            # System prompt for the rating pass
+├── paraphrases/             # Cached paraphrase TSV files (PARAPHRASES_DIR)
+├── checkpoints/             # Run checkpoints (CHECKPOINT_DIR)
+└── .env.local               # Local environment configuration
+```
+
+---
+
+## Key Parameters
+
+| Parameter | Description | Default |
+|---|---|---|
+| `SEMANTIC_THRESHOLD` | Cosine similarity threshold for paraphrase validity | `0.8` |
+| `WORD_THRESHOLD` | Minimum word edit distance between original and paraphrase | `3` |
+| `TIMEOUT` | HTTP request timeout in seconds | `300.0` |
+
+---
+
+## Output
+
+- **Optimized paper** — Written to `RESULTS_PATH` in Markdown format.
+- **Scores log** — A CSV appended to `SCORES_PATH` with columns: `paper`, `paraphrases`, `original_score`, `improved_score`.
+
+---
+
+## Notes
+
+- The paraphrase cache filename encodes the paper name, semantic threshold, and word threshold (e.g., `paper_paraphrases_80_3.tsv`), so changing these parameters will trigger a fresh paraphrase generation run.
+- The create_endpoint file serves as an example for a working modal endpoint. Other providers are possible but the endpoint has to use vLLM.
+- Up to 5 sentence evaluations are run concurrently per iteration via an async semaphore.
+- convert_to_md.py can be used to convert papers in JSON format from the peerRead Github to markdown.
+- create_plots.py extracts relevant information from log files and uses it to create line plots.

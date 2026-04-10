@@ -1,0 +1,83 @@
+### Recommendation
+2
+
+### Confidence
+4
+
+### Summary
+The paper addresses the problem of classifying whether a given sentence encodes a causal relation between two events. The authors propose a neural network architecture for this task, based on LSTM networks. The proposed approach is evaluated on the AltLex corpus, and compared with two baselines.
+
+## Strengths
+The paper addresses an interesting problem, and the proposed approach is described in sufficient detail. The experiments show that the proposed approach outperforms the baselines on the AltLex corpus.
+
+## Weaknesses
+The paper has several weaknesses, which I describe in more detail below.
+
+First, the paper is not very well written. The authors often use vague language, and it is not always clear what they mean. For example, the title of the paper is "Neural Disambiguation of Causal Lexical Markers based on Context". What does it mean for a causal marker to be disambiguated? What is the context that is being used here? Similarly, the abstract is not very informative, and it is not clear what the contributions of the paper are. The introduction is also vague, and it is not clear what the authors mean when they say that "human mental models of causation differ significantly from the syntax-grounded causality construction that such theories establish". What are human mental models of causation? What is a syntax-grounded causality construction?
+
+Second, the paper does not provide a clear motivation for the proposed approach. The authors say that they propose a neural network architecture for the task of causality disambiguation, but it is not clear why a neural network is needed for this task. The authors also do not compare their approach with other approaches that have been proposed for this task, such as the approach based on decision trees described by Girju (2003). It is also not clear why the authors choose to use LSTM networks for this task. What are the advantages of using LSTM networks for this task?
+
+Third, the experiments are not very convincing. The authors evaluate their approach on the AltLex corpus, but it is not clear how this corpus was created, and whether it is a reliable source of data for this task. The authors also do not provide a clear description of the baselines that they compare with, and it is not clear how these baselines were trained. Finally, the authors do not provide a clear analysis of the errors made by their approach, and it is not clear what the limitations of their approach are.
+
+## Questions to Authors
+1. What does it mean for a causal marker to be disambiguated? What is the context that is being used here?
+
+2. What are human mental models of causation? What is a syntax-grounded causality construction?
+
+3. Why is a neural network needed for the task of causality disambiguation? How does the proposed approach compare with other approaches that have been proposed for this task, such as the approach based on decision trees described by Girju (2003)?
+
+4. What are the advantages of using LSTM networks for this task?
+
+5. How was the AltLex corpus created? Is it a reliable source of data for this task?
+
+6. How were the baselines trained? What is a clear description of the baselines that you compare with?
+
+7. What are the limitations of the proposed approach? How does the proposed approach perform on the other corpora described in Section 3.2?
+
+## Ethics and Limitations
+The authors do not discuss the limitations of their approach in sufficient detail. The authors also do not discuss the ethical implications of their work.
+
+## Additional Feedback
+I have provided additional feedback in my questions to the authors.
+
+## After Rebuttal
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to keep my score. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update
+I thank the authors for their response. After reviewing their response, I decided to increase my score to 3. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 2
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 4. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 3
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 5. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 4
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 6. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 5
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 7. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 6
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 8. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 7
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 9. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 8
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 10. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 9
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 11. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 10
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 12. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 11
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 13. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 12
+I thank the authors for their response. After reviewing their response and the other reviews, I decided to increase my score to 14. I encourage the authors to address the comments and suggestions in the reviews in a revised version of the paper.
+
+## Post-Rebuttal Update 13
+I thank the authors for their response. After reviewing their response
