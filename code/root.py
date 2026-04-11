@@ -120,7 +120,7 @@ async def optimize_paper(df, paper_text, review_path, rating_path):
                 if new_score > current_score:
                     print(f"New score is: {new_score}")
                     print(f"original sentence is: {original_phrase}")
-                    print(f"sentece was replaced by: {paraphrase_options[i]}")
+                    print(f"sentence was replaced by: {paraphrase_options[i]}")
                     current_score = new_score
                     optimized_text = optimized_text.replace(
                         original_phrase, paraphrase_options[i]

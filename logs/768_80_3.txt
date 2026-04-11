@@ -9,7 +9,7 @@ Function 'evaluate_paper' took 52.4156 seconds
 Function 'evaluate_paper' took 53.4397 seconds
 New score is: 4.048251800191142
 original sentence is: Many NLP applications require detecting relations between word meanings beyond synonymy and paraphrasing.
-sentece was replaced by: Beyond synonymy and paraphrasing, numerous NLP applications need to identify relationships between word meanings.
+sentence was replaced by: Beyond synonymy and paraphrasing, numerous NLP applications need to identify relationships between word meanings.
 Optimizing sentence #2
 Optimizing sentence #3
 Function 'evaluate_paper' took 43.1755 seconds
@@ -23,7 +23,7 @@ Function 'evaluate_paper' took 171.7531 seconds
 Function 'evaluate_paper' took 172.6931 seconds
 New score is: 4.069796806521032
 original sentence is: While prior work has defined lexical entailment as a relation between word types (Turney and Mohammad, 2013), we argue entailment relations are better defined when illustrating word meaning with an example in context.
-sentece was replaced by: Lexical entailment has been conceptualized in earlier work as a word type relation (Turney and Mohammad, 2013), but we propose that entailment relations receive more effective definition when word meaning is demonstrated through contextual examples.
+sentence was replaced by: Lexical entailment has been conceptualized in earlier work as a word type relation (Turney and Mohammad, 2013), but we propose that entailment relations receive more effective definition when word meaning is demonstrated through contextual examples.
 Optimizing sentence #4
 Function 'evaluate_paper' took 45.5686 seconds
 Function 'evaluate_paper' took 46.5907 seconds
@@ -37,7 +37,7 @@ Function 'evaluate_paper' took 45.4615 seconds
 Function 'evaluate_paper' took 46.3550 seconds
 New score is: 5.409243636646312
 original sentence is: The championship game was played in NYC.
-sentece was replaced by: In NYC, the championship game took place.
+sentence was replaced by: In NYC, the championship game took place.
 Optimizing sentence #7
 Optimizing sentence #8
 Function 'evaluate_paper' took 84.3720 seconds
@@ -46,7 +46,7 @@ Function 'evaluate_paper' took 86.6555 seconds
 Function 'evaluate_paper' took 87.9551 seconds
 New score is: 5.479056123019623
 original sentence is: The hunters were interested in the big game.
-sentece was replaced by: The big game captured the hunters' interest.
+sentence was replaced by: The big game captured the hunters' interest.
 Optimizing sentence #9
 Optimizing sentence #10
 Function 'evaluate_paper' took 47.8659 seconds
@@ -206,7 +206,7 @@ Function 'evaluate_paper' took 50.3360 seconds
 Function 'evaluate_paper' took 51.3668 seconds
 New score is: 5.750610674335204
 original sentence is: We would like to directly assess the sensitivity of our models to contexts that signal different word senses, as well as quantify the extent to which our models detect asymmetric entailment relations rather than semantic similarity.
-sentece was replaced by: We aim to conduct a direct evaluation of our models' responsiveness to contexts indicating various word senses, and to measure the degree to which they recognize asymmetric entailment relations rather than semantic similarity.
+sentence was replaced by: We aim to conduct a direct evaluation of our models' responsiveness to contexts indicating various word senses, and to measure the degree to which they recognize asymmetric entailment relations rather than semantic similarity.
 Optimizing sentence #72
 Optimizing sentence #73
 Optimizing sentence #74
@@ -413,7 +413,7 @@ Function 'evaluate_paper' took 46.9645 seconds
 Function 'evaluate_paper' took 47.6947 seconds
 New score is: 5.875293860503793
 original sentence is: In this section, we aim to further test the assumptions underlying our proposed context representations.
-sentece was replaced by: Further examination of the assumptions supporting our proposed context representations constitutes the primary objective of this section.
+sentence was replaced by: Further examination of the assumptions supporting our proposed context representations constitutes the primary objective of this section.
 Optimizing sentence #141
 Function 'evaluate_paper' took 65.5976 seconds
 Function 'evaluate_paper' took 66.4322 seconds
