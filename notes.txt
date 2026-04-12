@@ -1,5 +1,0 @@
-Many NLP applications require detecting relations between word meanings beyond synonymy and paraphrasing.::::Beyond synonymy and paraphrasing, numerous NLP applications need to identify relationships between word meanings.::::2.6241
-
-We apply these measures to three types of representations.::::These measures get utilized across three types of representations.::::3.4246
-
-The dataset has a very specific focus since we only pick hypernym-hyponym pairs.::::The dataset demonstrates exceptional specificity due to our exclusive choice of hypernym-hyponym pairs.::::0.6667
